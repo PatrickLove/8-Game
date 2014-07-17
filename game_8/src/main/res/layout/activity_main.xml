@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.patricklove.game_8.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="8"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="buttonPressed"
+        android:background="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="406dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="8"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="300dp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:singleLine="false" />
+</FrameLayout>
